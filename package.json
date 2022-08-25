@@ -1,0 +1,31 @@
+{
+  "name": "weatherappbackend",
+  "version": "1.0.0",
+  "description": "Weather API and GPS project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyannRogue/weatherappBackend.git"
+  },
+  "author": "Thabang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CyannRogue/weatherappBackend/issues"
+  },
+  "homepage": "https://github.com/CyannRogue/weatherappBackend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.5.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
